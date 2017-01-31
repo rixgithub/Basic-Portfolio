@@ -1,24 +1,31 @@
 html, body {
+	background-image: url("../images/wildflowers.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	width: 960px;
+	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	position: fixed !important;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 #wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -80px;
+	margin: 0 auto -70px;
 }
 
 header {
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	border-bottom-style: solid;
-	border-width: 2px;
+	border-width: 3px;
 	border-color: #cccccc;
 }
 
@@ -47,28 +54,25 @@ li {
 }
 
 li a {
-    text-decoration: none;
+	text-decoration: none;
     color: #777777;
     font-size: 125%;
     padding: 0 10px;
 }
 
-#mainbody {
-	background-image: url("assets/images/mainbackimg.png");
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
+a:hover {
+	color: #666666;
 }
 
 #main {
 	position: absolute;
 	background-color: #ffffff;
-	width: 450px;
+	width: 475px;
+	height: 450px;
 	margin: 0;
-	padding: 20px;
-	border: 1px solid #dddddd;
-	top: 150px;
+	padding: 10px;
+	border: 2px solid #dddddd;
+	top: 100px;
 	left: 50px;
 	overflow: auto;
 }
@@ -76,19 +80,19 @@ li a {
 h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color: #4aaaa5;
+	font-size: 30px;
 	text-align: left;
 }
 
 #portrait {
-	width: 175px;
-	height: 175px;
+	width: 200px;
+	height: 200px;
 	margin: 0;
 	float: left;
 }
 
 p {
 	line-height: 35px;
-	float: left;
 }
 
 input[type="submit"] {
@@ -106,13 +110,13 @@ input[type="submit"] {
 
 input {
 	width: 93%;
-	padding: 8px;
+	padding: 5px;
 	margin: 5px;
 }
 
 textarea {
-	width: 96%;
-	height: 175px;
+	width: 95%;
+	height: 125px;
 	margin: 5px;
 }
 
@@ -122,24 +126,24 @@ textarea {
     column-count: 2;
     column-gap: 30px;
     padding: 5px;
+    margin: 10 0px;
 }
 
 #connect {
 	position: absolute;
 	width: 270px;
-	height: 175px;
-	padding: 20px;
+	height: 200px;
+	padding: 10px;
 	margin: 0;
 	background-color: #ffffff;
-	border: 1px solid #dddddd;
-	top: 150px;
+	border: 2px solid #dddddd;
+	top: 100px;
 	left: 600px;
 	text-align: center;
-	overflow: auto;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 25px;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color: #4aaaa5;
 }
@@ -147,6 +151,7 @@ h3 {
 #connect a {
 	width: 75px;
 	height: 75px;
+	text-decoration: none;
 }
 
 #gitimg {
@@ -171,14 +176,14 @@ footer {
 	text-align: center;
 	background-color: #666666;
 	margin: 0;
-	padding-top: 25px;
+	padding-top: 20px;
 	border-top-style: solid;
-	border-width: 5px;
+	border-width: 10px;
 	border-color: #4aaaa5;
 }
 
 footer, .push {
-	height: 50px;
+	height: 40px;
 }
 
 
