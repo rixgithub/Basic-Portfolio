@@ -61,14 +61,14 @@ li a {
 }
 
 a:hover {
-	color: #666666;
+	color: #414142;
 }
 
 #main {
 	position: absolute;
 	background-color: #ffffff;
 	width: 475px;
-	height: 450px;
+	height: 470px;
 	margin: 0;
 	padding: 10px;
 	border: 2px solid #dddddd;
@@ -88,6 +88,7 @@ h2 {
 	width: 200px;
 	height: 200px;
 	margin: 0;
+	margin-right: 18px;
 	float: left;
 }
 
@@ -118,6 +119,7 @@ textarea {
 	width: 95%;
 	height: 125px;
 	margin: 5px;
+	padding: 5px;
 }
 
 #portlist {
